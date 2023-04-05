@@ -34,8 +34,28 @@
 
             input {
                 padding: 15px;
-                border: none;
+                border: top;
+                width: 250px;
+                border-bottom: 1px rgb(248, 120, 7);
+                &::placeholder{
+                    color: black;
+                }
             }
+
+            button{
+                background-color: rgb(248, 120, 7);
+                color: white;
+                padding: 10px;
+                font-weight: bold;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+        p{
+            color: rgb(248, 120, 7);
+            font-size: 12px;
+            margin-top: 10px;
         }
     }
   
